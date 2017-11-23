@@ -1,0 +1,10 @@
+<div class="container main">
+	<div class="row">
+		<div class="col-xs-4">
+			<app-videos-list [videos]="videos.videos"></app-videos-list>
+		</div>
+		<div *ngIf="videos.selectedVideo" class="col-xs-8">
+			<app-video-embed [video]="videos.selectedVideo" [index]="videos.selectedVideoIndex"></app-video-embed>
+		</div>
+	</div>
+</div>

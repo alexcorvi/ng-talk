@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
-import { Video } from '../shared/interfaces/video';
+import { Video } from '../../../types/video';
 
 @Component({
 	selector: 'app-videos-list',

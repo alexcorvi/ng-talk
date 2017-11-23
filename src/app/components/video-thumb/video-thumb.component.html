@@ -1,0 +1,11 @@
+<div class="video-thumbnail">
+	<div>
+		<div class="title">
+			<a (click)="selectVideo(index)"> {{video.title}} </a>
+		</div>
+	</div>
+	<div class="user">
+		<img [src]="users.getUserById(video.user_id).avatar" height="30px">
+		<span class="name">{{users.getUserById(video.user_id).name}}</span>
+	</div>
+</div>

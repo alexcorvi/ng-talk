@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Video } from '../interfaces/video';
+import { Video } from '../../types/video';
 import request from 'axios';
 import { UsersService } from './users.service';
 

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { Video } from '../shared/interfaces/video';
+import { Video } from '../../../types/video';
 
 @Component({
 	selector: 'app-video-embed',
