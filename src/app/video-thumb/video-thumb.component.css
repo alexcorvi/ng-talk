@@ -1,0 +1,9 @@
+.video-thumbnail .title {
+	cursor: pointer;
+}
+
+.user {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px dashed #818181;
+}

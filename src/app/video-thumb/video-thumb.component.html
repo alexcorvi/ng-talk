@@ -1,0 +1,10 @@
+<div class="video-thumbnail" (click)="selectVideo(index)">
+  <div>
+    <div class="title">{{video.title}}</div>
+    <button>Edit Title</button>
+  </div>
+  <div class="user">
+    <img [src]="users.getUserById(video.user_id).avatar" height="30px">
+    <span class="name">{{users.getUserById(video.user_id).name}}</span>
+  </div>
+</div>
